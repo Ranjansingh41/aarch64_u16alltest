@@ -17,7 +17,6 @@ jobs:
            - dpkg -s rabbitmq-server | grep Version
            - java -jar /usr/local/selenium/selenium-server-standalone-3.11.0.jar --version
            - sqlite3 --version
-           - gosu --version
            - service couchdb start
            - sleep 5
            - http://127.0.0.1:5984/
