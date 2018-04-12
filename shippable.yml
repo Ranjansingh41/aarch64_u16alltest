@@ -10,7 +10,7 @@ jobs:
          script:
        
            - elasticsearch --version
-           - memcached --version
+           - memcached -version
            - mongod --version
            - /var/lib/neo4j/bin/neo4j version
            - psql --version
